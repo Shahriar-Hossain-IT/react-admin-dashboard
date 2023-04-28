@@ -18,4 +18,4 @@ jobs:
       run: |
         npm install
         git remote set-url --push origin https://Shahriar-Hossain-IT:$TOKEN@github.com/react-admin-dashboard.git
-        npm deploy
+        npm run deploy
