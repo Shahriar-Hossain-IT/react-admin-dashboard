@@ -26,9 +26,9 @@ function App() {
           <main className="content">
             <Topbar />
             <Routes basename="/react-admin-dashboard">
-              <Route path="/" element={<Dashboard />} />
-              <Route path="/team" element={<Team/>}/>
-              <Route path="/contacts" element={<Contacts/>}/>
+              <Route path="/react-admin-dashboard/" element={<Dashboard />} />
+              <Route path="/react-admin-dashboard/team" element={<Team/>}/>
+              <Route path="/react-admin-dashboard/contacts" element={<Contacts/>}/>
               {/* <Route path="/invoices" element={<Invoices/>}/> */}
               {/* <Route path="/form" element={<Form/>}/> */}
               {/* <Route path="/bar" element={<Bar/>}/> */}
