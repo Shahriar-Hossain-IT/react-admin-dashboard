@@ -1,7 +1,7 @@
-import { Box, useTheme } from "@mui/material";
+import { Box, useTheme, Typography } from "@mui/material";
 import { tokens } from "../../theme";
-import { DataGrid, GridToolbar } from "@mui/x-data-grid";
-import { mockDataContacts } from "../../data/mockData";
+import { DataGrid } from "@mui/x-data-grid";
+import { mockDataInvoices } from "../../data/mockData";
 import Header from "../../components/Header";
 import React from "react";
 
