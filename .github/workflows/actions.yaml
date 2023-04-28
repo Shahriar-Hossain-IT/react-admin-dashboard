@@ -17,5 +17,5 @@ jobs:
     - name: 🔨 Build Project & Deploy
       run: |
         npm install
-        git remote add origin https://github.com/Shahriar-Hossain-IT/react-admin-dashboard.git
+        git remote set-url --push origin https://Shahriar-Hossain-IT:$TOKEN@github.com/react-admin-dashboard.git
         gh-pages -d build
