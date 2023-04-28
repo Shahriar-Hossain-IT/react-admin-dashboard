@@ -4,7 +4,7 @@ import Topbar from "./scenes/global/Topbar";
 import Sidebar from "./scenes/global/Sidebar";
 import Dashboard from "./scenes/dashboard";
 import Team from "./scenes/team"
-// import Invoices from "./scenes/Invoices"
+import Invoices from "./scenes/invoices"
 import Contacts from "./scenes/contacts"
 // import Form from "./scenes/Form"
 // import Bar from "./scenes/Bar"
@@ -29,14 +29,14 @@ function App() {
               <Route path="/react-admin-dashboard/" element={<Dashboard />} />
               <Route path="/react-admin-dashboard/team" element={<Team/>}/>
               <Route path="/react-admin-dashboard/contacts" element={<Contacts/>}/>
-              {/* <Route path="/invoices" element={<Invoices/>}/> */}
-              {/* <Route path="/form" element={<Form/>}/> */}
-              {/* <Route path="/bar" element={<Bar/>}/> */}
-              {/* <Route path="/pie" element={<Pie/>}/> */}
-              {/* <Route path="/line" element={<Line/>}/> */}
-              {/* <Route path="/faq" element={<FAQ/>}/> */}
-              {/* <Route path="/geography" element={<Geography/>}/> */}
-              {/* <Route path="/calendar" element={<Calendar/>}/> */}
+              <Route path="/react-admin-dashboard/invoices" element={<Invoices/>}/>
+              {/* <Route path="/react-admin-dashboard/form" element={<Form/>}/> */}
+              {/* <Route path="/react-admin-dashboard/bar" element={<Bar/>}/> */}
+              {/* <Route path="/react-admin-dashboard/pie" element={<Pie/>}/> */}
+              {/* <Route path="/react-admin-dashboard/line" element={<Line/>}/> */}
+              {/* <Route path="/react-admin-dashboard/faq" element={<FAQ/>}/> */}
+              {/* <Route path="/react-admin-dashboard/geography" element={<Geography/>}/> */}
+              {/* <Route path="/react-admin-dashboard/calendar" element={<Calendar/>}/> */}
             </Routes>
           </main>
         </div>
