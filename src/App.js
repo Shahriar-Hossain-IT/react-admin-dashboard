@@ -6,7 +6,7 @@ import Dashboard from "./scenes/dashboard";
 import Team from "./scenes/team"
 import Invoices from "./scenes/invoices"
 import Contacts from "./scenes/contacts"
-// import Form from "./scenes/Form"
+import Form from "./scenes/form"
 // import Bar from "./scenes/Bar"
 // import Line from "./scenes/Line"
 // import Pie from "./scenes/Pie"
@@ -30,7 +30,7 @@ function App() {
               <Route path="/react-admin-dashboard/team" element={<Team/>}/>
               <Route path="/react-admin-dashboard/contacts" element={<Contacts/>}/>
               <Route path="/react-admin-dashboard/invoices" element={<Invoices/>}/>
-              {/* <Route path="/react-admin-dashboard/form" element={<Form/>}/> */}
+              <Route path="/react-admin-dashboard/form" element={<Form/>}/>
               {/* <Route path="/react-admin-dashboard/bar" element={<Bar/>}/> */}
               {/* <Route path="/react-admin-dashboard/pie" element={<Pie/>}/> */}
               {/* <Route path="/react-admin-dashboard/line" element={<Line/>}/> */}
