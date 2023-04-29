@@ -11,8 +11,8 @@ import Calendar from "./scenes/calendar"
 import Faq from "./scenes/faq";
 import { Routes, Route } from "react-router-dom";
 import Bar from "./scenes/bar"
+import Pie from "./scenes/pie"
 // import Line from "./scenes/Line"
-// import Pie from "./scenes/Pie"
 // import Geography from "./scenes/Geography"
 
 
@@ -35,7 +35,7 @@ function App() {
               <Route path="/react-admin-dashboard/calendar" element={<Calendar/>}/>
               <Route path="/react-admin-dashboard/faq" element={<Faq/>} />
               <Route path="/react-admin-dashboard/bar" element={<Bar/>}/>
-              {/* <Route path="/react-admin-dashboard/pie" element={<Pie/>}/> */}
+              <Route path="/react-admin-dashboard/pie" element={<Pie/>}/>
               {/* <Route path="/react-admin-dashboard/line" element={<Line/>}/> */}
               {/* <Route path="/react-admin-dashboard/geography" element={<Geography/>}/> */}
             </Routes>

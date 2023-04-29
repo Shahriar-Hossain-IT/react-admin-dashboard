@@ -12,7 +12,6 @@ const BarChart = ({isDashboard = false}) => {
       data={data}
       keys={["hot dog", "burger", "sandwich", "kebab", "fries", "donut"]}
       theme={{
-        // added
         axis: {
           domain: {
             line: {
@@ -34,6 +33,12 @@ const BarChart = ({isDashboard = false}) => {
             },
           },
         },
+        tooltip: {
+          container: {
+              background: colors.primary[400],
+              color: colors.grey[100],
+              fontSize: 12
+          }},
         legends: {
           text: {
             fill: colors.grey[100],
